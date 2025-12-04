@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <img src="imagens/logo.png" alt="logo site limeira">
+    </header>
+    
+      <div class="toggle-container">
+        <input type="checkbox" id="toggle" class="toggle-input">
+        <label for="toggle" class="toggle-label">Dark mode</label>
+    </div>
+
+    <main>
+        <section class="destaque">
+            <h1>Agendamentos</h1>
+            <p>Opção Online para agendamentos de consultas.</p>
+        </section>
+
+        <section class="grid-contato">
+            <div>
+                <form method="post" action="">
+                    <p>Preencha os campos abaixo</p>
+
+                    <div>
+                        <label>Nome:</label>
+                        <input type="text" class="campo" required placeholder="Ex : Gustavo">
+                    </div>
+                    <div>
+                        <label>E-mail:</label>
+                        <input type="email" class="campo" required>
+                    </div>
+                    <div>
+                        <label>Sexo:</label>
+                        <input type="radio" name="Sexo" class="campo" value="Masculino"> Masculino
+                        <input type="radio" name="Sexo" class="campo" value="Feminino"> Feminino
+                    </div>
+                    <div>
+                        <label>Assunto:</label>
+                        <select>
+                            <option>Crítica</option>
+                            <option>Dúvida</option>
+                            <option>Sugestão</option>
+                            <option>Elogio</option>
+                            <option>Outro</option>
+
+                        </select>
+                    </div>
+                    <div>
+                        <label>Comentario</label>
+                        <textarea class="campo" rows="6"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar Dados" class="botão">
+                    </div>
+                </form>
+
+            </div>
+            <div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.3177022577856!2d-47.401501024014316!3d-22.5672179258249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c880ee0caac24d%3A0x95fcf7d5914d4d50!2sSenac%20Limeira!5e0!3m2!1spt-BR!2sbr!4v1762794335047!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+
+
+        </section>
+        <section class="Voltar">
+            <a href="index.html">
+                <i class="bi bi-arrow-left-circle-fill">
+                    Voltar
+                </i>
+            </a>
+        </section>
+        <footer>
+            &copy; 2025 - Site Limeira | Créditos
+        </footer>
+    </main>
+    <script type="module" src="js/main.js"></script>
+</body>
+
+
+</html>
